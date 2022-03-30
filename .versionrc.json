@@ -1,0 +1,21 @@
+{
+  "header": "# eBay API Changelog",
+  "repository": {
+    "host": "https://github.com/hendt/ebay-api.git",
+    "url": "https://github.com/hendt/ebay-api.git"
+  },
+  "bumpFiles": [
+    {
+      "filename": "package.json",
+      "type": "json"
+    },
+    {
+      "filename": "package-lock.json",
+      "type": "json"
+    },
+    {
+      "filename": "README.md",
+      "updater": "./scripts/update-readme-release.js"
+    }
+  ]
+}
